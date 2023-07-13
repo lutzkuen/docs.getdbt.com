@@ -27,10 +27,12 @@ dbt Labs is committed to providing backward compatibility for all versions 1.x, 
 - Manifest schema version is now v10, reflecting [TODO] changes
 
 ## New and changed documentation
-- [Revamped dbt Semantic Layer pages](/docs/use-dbt-semantic-layer/dbt-sl)
-- [dbt Semantic Layer API](/docs/use-dbt-semantic-layer/sl-api-overview)
-- [dbt Semantic Layer manifest](/docs/use-dbt-semantic-layer/sl-manifest)
-- [Legacy dbt Semantic Layer migration guide](guides/migration/sl-migration)
+
+- [Revamped dbt Semantic Layer pages](/docs/use-dbt-semantic-layer/dbt-sl) introduces the revamped dbt Semantic Layer which now includes new semantic components, improved governance, enhanced efficiency, data accessibility, and new Semantic Layer APIs. The new dbt Semantic Layer will lay the foundation for effective organization and interaction with data.
+- [dbt Semantic Layer API](/docs/use-dbt-semantic-layer/sl-api-overview) allows you to seamlessly query the metrics you built with [MetricFlow](/docs/build/about-metricflow) to avoid duplicative coding, optimize your development workflow, ensure data governance for company metrics, and guarantee consistency for data consumers.
+- [dbt Semantic Layer manifest](/docs/use-dbt-semantic-layer/sl-manifest) is an artifact that contains comprehensive information about your Semantic Layer and helps you understand details of your data models.
+- [Legacy dbt Semantic Layer migration guide](guides/migration/sl-migration) will help you migrate your legacy Semantic Layer (available in dbt v1.5 or lower) to the new and revamped Semantic Layer, available in dbt v1.6 and higher. 
+
 ### Materialized views
 
 **Materialized view** support (for model and project configs) has been added for three data warehouses:
