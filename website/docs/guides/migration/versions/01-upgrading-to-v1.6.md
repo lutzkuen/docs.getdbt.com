@@ -27,7 +27,10 @@ dbt Labs is committed to providing backward compatibility for all versions 1.x, 
 - Manifest schema version is now v10, reflecting [TODO] changes
 
 ## New and changed documentation
-
+- [Revamped dbt Semantic Layer pages](/docs/use-dbt-semantic-layer/dbt-sl)
+- [dbt Semantic Layer API](/docs/use-dbt-semantic-layer/sl-api-overview)
+- [dbt Semantic Layer manifest](/docs/use-dbt-semantic-layer/sl-manifest)
+- [Legacy dbt Semantic Layer migration guide](guides/migration/sl-migration)
 ### Materialized views
 
 **Materialized view** support (for model and project configs) has been added for three data warehouses:
